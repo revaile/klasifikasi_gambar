@@ -40,6 +40,7 @@ Pastikan dataset ZIP (`monggo.zip`) berada di direktori Google Drive kamu, misal
 Gunakan file notebook Colab dan ikuti urutan langkah berikut:
 
 - Mount Google Drive
+-import library yg dibutuhkan bisa di cek di requirments.txt
 - Ekstrak file ZIP
 - Bagi dataset ke train/val/test
 - Lakukan augmentasi dan load data dengan `ImageDataGenerator`
